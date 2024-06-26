@@ -5,6 +5,7 @@ import DeleteBus from './components/DeleteBus';
 import SearchBus from './components/SearchBus';
 import BusNavBar from './components/BusNavBar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import ViewBus from './components/ViewBus';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
 <Route path='/' element={<AddBus/>}/>
 <Route path='/search' element={<SearchBus/>}/>
 <Route path='/delete' element={<DeleteBus/>}/>
-
+<Route path='/view' element={<ViewBus/>}/>
 
 
    </Routes>

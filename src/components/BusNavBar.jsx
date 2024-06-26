@@ -21,7 +21,7 @@ const BusNavBar = () => {
           <a class="nav-link" href="/delete">Delete</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">View</a>
+          <a class="nav-link" href="/view">View All</a>
         </li>
       </ul>
     </div>
