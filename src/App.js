@@ -8,12 +8,20 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-   <div>
-    <BusNavBar/>
-    <AddBus/>
-    <SearchBus/>
-    <DeleteBus/>
-   </div>
+   
+   <BrowserRouter>
+   <Routes>
+<Route path='/' element={<AddBus/>}/>
+<Route path='/search' element={<SearchBus/>}/>
+<Route path='/delete' element={<DeleteBus/>}/>
+
+
+
+   </Routes>
+   
+   
+   
+   </BrowserRouter>
   );
 }
 
